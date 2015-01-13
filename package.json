@@ -2,7 +2,7 @@
   "name": "Auto Encoding for Ruby",
   "main": "./lib/main",
   "version": "0.1.0",
-  "description": "automatically include #encoding: utf-8 on Ruby files",
+  "description": "Atom package to automatically include #encoding: utf-8 on Ruby files",
   "activationCommands": {
     "atom-workspace": "auto-encoding-for-ruby:add-encoding",
     ".tree-view .file .name": "auto-encoding-for-ruby:add-encoding-file",
