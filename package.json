@@ -8,7 +8,7 @@
     ".tree-view .file .name": "auto-encoding-for-ruby:add-encoding-file",
     ".tree-view .directory .name": "auto-encoding-for-ruby:add-encoding-directory"
 },
-  "repository": "https://github.com/zakwanhaj/auto-encoding-for-ruby.git",
+  "repository": "https://github.com/zakwanhaj/auto-encoding-for-ruby",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
