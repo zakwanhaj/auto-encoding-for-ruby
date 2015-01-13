@@ -1,0 +1,34 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Add #encoding: utf-8'
+      'command': 'auto-encoding-for-ruby:add-encoding'
+    }
+  ]
+  '.tree-view .file > .name': [
+    {
+      'label': 'Add #encoding: utf-8'
+      'command': 'auto-encoding-for-ruby:add-encoding-file'
+    }
+  ]
+  '.tree-view .directory > .header > .name': [
+    {
+      'label': 'Add #encoding: utf-8'
+      'command': 'auto-encoding-for-ruby:add-encoding-directory'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Auto Encoding for Ruby'
+      'submenu': [
+        {
+          'label': 'Add #encoding: utf-8'
+          'command': 'auto-encoding-for-ruby:add-encoding'
+        }
+      ]
+    ]
+  }
+]
