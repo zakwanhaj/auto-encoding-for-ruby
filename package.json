@@ -1,5 +1,5 @@
 {
-  "name": "Auto Encoding for Ruby",
+  "name": "auto-encoding-for-ruby",
   "main": "./lib/main",
   "version": "0.1.0",
   "description": "automatically include #encoding: utf-8 on Ruby files",
