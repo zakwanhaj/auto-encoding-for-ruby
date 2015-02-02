@@ -1,7 +1,7 @@
 {
   "name": "auto-encoding-for-ruby",
   "main": "./lib/main",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "automatically include #encoding: utf-8 on Ruby files",
   "activationCommands": {
     "atom-workspace": "auto-encoding-for-ruby:add-encoding",
