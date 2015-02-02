@@ -7,7 +7,7 @@ module.exports =
     isRubyFile: (filePath)->
       pattern = ///    # begin of regex
                   \.   #
-                  rb   # ruby extension
+                  e?rb   # ruby or erb extensions
                   $    # end of line
                 ///i   # ignore case
 
